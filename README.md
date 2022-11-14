@@ -59,8 +59,8 @@ Check version after installing: java -version
 
 1)yarn install
 2)npx jetify
-1)cd android
-1) ./gradlew assembleRelease
+3)cd android
+4) ./gradlew assembleRelease
 
 ## Create ipa ##
 
