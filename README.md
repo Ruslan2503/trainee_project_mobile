@@ -37,20 +37,18 @@ Add to the Path variable: `C:\Gradle\gradle-6.9` and `C:\Gradle\gradle-6.9\bin`
 Add the paths to the platform tools to the Path variable: C:\Program Files\Java\jdk-11.0.2\bin
 Check version after installing: java -version
 
-## You can run the tests with the following commands:
-
 * **For Windows local commands:** 
 
 # Run on Android ##
 
 1) Open a new bash shell
-2) npm install
+2) yarn install
 3) npm run android
 
 ## Run on iOS ##
 
 1) Open a new bash shell
-2) npm install
+2) yarn install
 4) cd ios
 5) rm -rf ~/Library/Caches/CocoaPods Pods ~/Library/Developer/Xcode/DerivedData/*; pod deintegrate; pod setup; pod install;
 6) open in folder ios filename extension with .xcworkspace
@@ -64,7 +62,7 @@ Check version after installing: java -version
 
 ## Create ipa ##
 
-1) npm i
+1) yarn install
 3) cd ios
 4) rm -rf ~/Library/Caches/CocoaPods Pods ~/Library/Developer/Xcode/DerivedData/*; pod deintegrate; pod setup; pod install;
 5)  open xcode; Product -> Clean Build Folder -> Archive -> Distribute app -> Manage certificate -> upload
