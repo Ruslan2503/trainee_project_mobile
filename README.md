@@ -10,7 +10,7 @@ Add the paths to the `node.exe file` to the Path variable: `C:\Program Files\nod
 
 * **Install Yarn** -  Command for Power Shell: `npm install --global yarn`
 Command: `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted` fixed error `cannot be loaded because running scripts is disabled on this system`
-Check version after installing: `yarn --version`
+Check version after installing: `yarn -version`
 
 * **Install Microsoft Visual Studio** - Link for it: (https://visualstudio.microsoft.com/downloads/) including the `"Desktop development with C++" workload`. It fixed problem with `node-gyp` during `npm install` 
 command: `npm install -g node-gyp`.
