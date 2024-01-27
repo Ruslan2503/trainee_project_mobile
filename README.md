@@ -111,3 +111,4 @@ Check version after installing: java -version
 
 
 
+# trainee_project_mobile
